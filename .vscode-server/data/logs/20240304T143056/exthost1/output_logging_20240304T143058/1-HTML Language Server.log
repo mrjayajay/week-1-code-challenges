@@ -1,0 +1,10 @@
+[Error - 3:38:36 PM] Error while computing completions for file:///root/moringa/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1360296)
+    at B (/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:790843)
+    at j.computeCompletions (/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:790120)
+    at Y.doComplete2 (/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:791633)
+    at doComplete (/root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1302279)
+    at /root/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/html-language-features/server/dist/node/htmlServerMain.js:1:1288356
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at process.processImmediate (node:internal/timers:447:9)
