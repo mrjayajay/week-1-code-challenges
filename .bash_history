@@ -931,3 +931,8 @@ git rm --cached bingwa
 git rm -f bingwa
 git init
 git init
+git add .
+git commit -m "javacript code challenges"
+git branch
+git remote add origin git@github.com:mrjayajay/week-1-code-challenges.git
+git push -u origin master
