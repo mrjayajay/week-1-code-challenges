@@ -1008,3 +1008,4 @@ ls
 cd codechallenge
 ls
 rm -r codechallenge
+cd codechallenges

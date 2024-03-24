@@ -1,0 +1,18 @@
+2024-03-24 21:01:31.305 [info] Log level: Info
+2024-03-24 21:01:31.305 [info] Validating found git in: "git"
+2024-03-24 21:01:31.305 [info] Using git "2.43.2" from "git"
+2024-03-24 21:01:31.305 [info] > git rev-parse --show-toplevel [45ms]
+2024-03-24 21:01:31.305 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-03-24 21:01:31.305 [info] Open repository: /root
+2024-03-24 21:01:31.305 [info] > git rev-parse --show-toplevel [105ms]
+2024-03-24 21:01:31.305 [info] fatal: this operation must be run in a work tree
+2024-03-24 21:01:31.305 [info] > git config --get commit.template [130ms]
+2024-03-24 21:01:31.321 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-03-24 21:01:31.344 [info] > git rev-parse --show-toplevel [39ms]
+2024-03-24 21:01:31.661 [info] > git show --textconv HEAD:codechallenge/speed.js [37ms]
+2024-03-24 21:01:31.662 [info] > git ls-tree -l HEAD -- /root/codechallenge/speed.js [5ms]
+2024-03-24 21:01:32.226 [info] > git status -z -uall [885ms]
+2024-03-24 21:01:32.331 [info] > git check-ignore -v -z --stdin [110ms]
+2024-03-24 21:01:32.480 [info] > git config --get commit.template [150ms]
+2024-03-24 21:01:32.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-03-24 21:01:32.827 [info] > git status -z -uall [320ms]
