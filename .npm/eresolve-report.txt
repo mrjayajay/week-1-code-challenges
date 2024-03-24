@@ -1,0 +1,203 @@
+# npm resolution error report
+
+2024-03-19T11:25:27.670Z
+
+While resolving: mocha-multi@1.0.1
+Found: mocha@10.3.0
+node_modules/mocha
+  dev mocha@"^10.3.0" from the root project
+  peer mocha@"*" from mocha-jsdom@1.1.0
+  node_modules/mocha-jsdom
+    dev mocha-jsdom@"~1.1.0" from the root project
+
+Could not resolve dependency:
+peer mocha@">=2.2.0 <6.0.0" from mocha-multi@1.0.1
+node_modules/mocha-multi
+  dev mocha-multi@"1.0.1" from the root project
+
+Conflicting peer dependency: mocha@5.2.0
+node_modules/mocha
+  peer mocha@">=2.2.0 <6.0.0" from mocha-multi@1.0.1
+  node_modules/mocha-multi
+    dev mocha-multi@"1.0.1" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "edge": {
+    "type": "peer",
+    "name": "mocha",
+    "spec": ">=2.2.0 <6.0.0",
+    "error": "INVALID",
+    "from": {
+      "name": "mocha-multi",
+      "version": "1.0.1",
+      "location": "node_modules/mocha-multi",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "dev",
+          "name": "mocha-multi",
+          "spec": "1.0.1",
+          "from": {
+            "location": "/root/phase-1-javascript-variables-lab"
+          }
+        }
+      ]
+    }
+  },
+  "dep": {
+    "name": "mocha",
+    "version": "5.2.0",
+    "whileInstalling": {
+      "name": "mocha-multi",
+      "version": "1.0.1",
+      "path": "/root/phase-1-javascript-variables-lab/node_modules/mocha-multi"
+    },
+    "location": "node_modules/mocha",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "peer",
+        "name": "mocha",
+        "spec": ">=2.2.0 <6.0.0",
+        "error": "INVALID",
+        "from": {
+          "name": "mocha-multi",
+          "version": "1.0.1",
+          "location": "node_modules/mocha-multi",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "dev",
+              "name": "mocha-multi",
+              "spec": "1.0.1",
+              "from": {
+                "location": "/root/phase-1-javascript-variables-lab"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "current": {
+    "name": "mocha",
+    "version": "10.3.0",
+    "location": "node_modules/mocha",
+    "isWorkspace": false,
+    "dependents": [
+      {
+        "type": "dev",
+        "name": "mocha",
+        "spec": "^10.3.0",
+        "from": {
+          "location": "/root/phase-1-javascript-variables-lab"
+        }
+      },
+      {
+        "type": "peer",
+        "name": "mocha",
+        "spec": "*",
+        "from": {
+          "name": "mocha-jsdom",
+          "version": "1.1.0",
+          "location": "node_modules/mocha-jsdom",
+          "isWorkspace": false,
+          "dependents": [
+            {
+              "type": "dev",
+              "name": "mocha-jsdom",
+              "spec": "~1.1.0",
+              "from": {
+                "location": "/root/phase-1-javascript-variables-lab"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "peerConflict": {
+    "current": {
+      "name": "mocha",
+      "version": "10.3.0",
+      "location": "node_modules/mocha",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "dev",
+          "name": "mocha",
+          "spec": "^10.3.0",
+          "from": {
+            "location": "/root/phase-1-javascript-variables-lab"
+          }
+        },
+        {
+          "type": "peer",
+          "name": "mocha",
+          "spec": "*",
+          "from": {
+            "name": "mocha-jsdom",
+            "version": "1.1.0",
+            "location": "node_modules/mocha-jsdom",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "dev",
+                "name": "mocha-jsdom",
+                "spec": "~1.1.0",
+                "from": {
+                  "location": "/root/phase-1-javascript-variables-lab"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "peer": {
+      "name": "mocha",
+      "version": "5.2.0",
+      "whileInstalling": {
+        "name": "mocha-multi",
+        "version": "1.0.1",
+        "path": "/root/phase-1-javascript-variables-lab/node_modules/mocha-multi"
+      },
+      "location": "node_modules/mocha",
+      "isWorkspace": false,
+      "dependents": [
+        {
+          "type": "peer",
+          "name": "mocha",
+          "spec": ">=2.2.0 <6.0.0",
+          "error": "INVALID",
+          "from": {
+            "name": "mocha-multi",
+            "version": "1.0.1",
+            "location": "node_modules/mocha-multi",
+            "isWorkspace": false,
+            "dependents": [
+              {
+                "type": "dev",
+                "name": "mocha-multi",
+                "spec": "1.0.1",
+                "from": {
+                  "location": "/root/phase-1-javascript-variables-lab"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "strictPeerDeps": false,
+  "force": false,
+  "isMine": true
+}

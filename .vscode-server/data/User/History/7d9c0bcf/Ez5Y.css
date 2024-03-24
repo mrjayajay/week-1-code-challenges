@@ -1,0 +1,19 @@
+*{
+    padding:0px
+    margin:0px
+}
+body {
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+#name{
+    color: white;
+    margin-left: 40px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.zenz{color: black;
+
+}

@@ -1,0 +1,42 @@
+*{
+    padding:0px
+    margin:0px
+}
+body {
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+#name{
+    color: white;
+    margin-left: 40px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.zenz{color: black;
+text-align: left;
+}
+.frame{
+    width:632px;
+    height: 1813px;
+    background-color: darkgrey;
+    margin-left: 700px;
+    top: -216px;
+    left: -293px;
+}
+#brr{
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    
+}
+#cnn{
+    height: 60px;
+    width: 270px;
+    text-align: center;
+    border-radius: 20px;
+}
+#circ{
+    position: relative;
+}

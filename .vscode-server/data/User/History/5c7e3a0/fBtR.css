@@ -1,0 +1,23 @@
+body {
+  background: pink;
+}
+
+#{
+  color: blue;
+  fontsize: 3em; 
+}
+
+h2 {
+  color: green;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.completed {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#tasks .completed {
+  backgound: #ccc;
+  text-decoration: underline;
+}

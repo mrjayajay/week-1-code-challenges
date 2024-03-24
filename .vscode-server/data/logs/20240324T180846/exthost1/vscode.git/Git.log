@@ -1,0 +1,45 @@
+2024-03-24 18:08:50.289 [info] Log level: Info
+2024-03-24 18:08:50.289 [info] Validating found git in: "git"
+2024-03-24 18:08:50.289 [info] Using git "2.43.2" from "git"
+2024-03-24 18:08:50.289 [info] > git rev-parse --show-toplevel [11ms]
+2024-03-24 18:08:50.289 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-03-24 18:08:50.289 [info] Open repository: /root
+2024-03-24 18:08:50.363 [info] > git config --get commit.template [65ms]
+2024-03-24 18:08:50.372 [info] No remotes found in the git config file.
+2024-03-24 18:08:50.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-03-24 18:08:50.661 [info] > git show --textconv :codechallenge/README.md [7ms]
+2024-03-24 18:08:50.664 [info] > git ls-files --stage -- /root/codechallenge/README.md [4ms]
+2024-03-24 18:08:50.670 [info] > git cat-file -s e2c1875d114b5db864dbd17f1a74ee00a4f3eff1 [2ms]
+2024-03-24 18:08:50.873 [info] > git check-ignore -v -z --stdin [5ms]
+2024-03-24 18:08:51.256 [info] > git status -z -uall [876ms]
+2024-03-24 18:08:51.376 [info] > git config --get commit.template [9ms]
+2024-03-24 18:08:51.386 [info] No remotes found in the git config file.
+2024-03-24 18:08:51.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [550ms]
+2024-03-24 18:08:52.874 [info] > git status -z -uall [932ms]
+2024-03-24 18:08:54.714 [info] > git config --get commit.template [5ms]
+2024-03-24 18:08:54.732 [info] No remotes found in the git config file.
+2024-03-24 18:08:54.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-03-24 18:08:55.412 [info] > git status -z -uall [657ms]
+2024-03-24 18:10:23.418 [info] > git config --get commit.template [2ms]
+2024-03-24 18:10:23.425 [info] No remotes found in the git config file.
+2024-03-24 18:10:23.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-03-24 18:10:24.074 [info] > git status -z -uall [642ms]
+2024-03-24 18:24:16.936 [info] > git config --get commit.template [2ms]
+2024-03-24 18:24:16.956 [info] No remotes found in the git config file.
+2024-03-24 18:24:16.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-03-24 18:24:17.667 [info] > git status -z -uall [701ms]
+2024-03-24 18:24:22.777 [info] > git config --get commit.template [14ms]
+2024-03-24 18:24:22.778 [info] No remotes found in the git config file.
+2024-03-24 18:24:22.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-03-24 18:24:23.463 [info] > git status -z -uall [673ms]
+2024-03-24 18:24:28.577 [info] No remotes found in the git config file.
+2024-03-24 18:24:28.580 [info] > git config --get commit.template [22ms]
+2024-03-24 18:24:28.581 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-03-24 18:24:29.239 [info] > git status -z -uall [646ms]
+2024-03-24 18:24:31.609 [info] > git ls-files --stage -- /root/codechallenge/README.md [7ms]
+2024-03-24 18:24:31.624 [info] > git cat-file -s e2c1875d114b5db864dbd17f1a74ee00a4f3eff1 [2ms]
+2024-03-24 18:24:31.650 [info] > git show --textconv :codechallenge/README.md [6ms]
+2024-03-24 18:24:34.318 [info] > git config --get commit.template [3ms]
+2024-03-24 18:24:34.332 [info] No remotes found in the git config file.
+2024-03-24 18:24:34.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-24 18:24:34.975 [info] > git status -z -uall [632ms]

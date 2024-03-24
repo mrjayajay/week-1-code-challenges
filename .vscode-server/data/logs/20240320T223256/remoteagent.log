@@ -1,0 +1,27 @@
+2024-03-20 22:32:56.269 [info] 
+
+
+
+
+2024-03-20 22:32:56.290 [info] Extension host agent started.
+2024-03-20 22:32:56.646 [info] [127.0.0.1][48bc3b52][ManagementConnection] New connection established.
+2024-03-20 22:32:57.816 [info] [127.0.0.1][7ffeac6f][ExtensionHostConnection] New connection established.
+2024-03-20 22:32:57.823 [info] [127.0.0.1][7ffeac6f][ExtensionHostConnection] <1580> Launched Extension Host Process.
+2024-03-21 08:46:10.544 [info] [127.0.0.1][7ffeac6f][ExtensionHostConnection] The client has reconnected.
+2024-03-21 08:46:11.514 [info] [127.0.0.1][48bc3b52][ManagementConnection] The client has reconnected.
+2024-03-21 09:22:07.166 [info] [127.0.0.1][48bc3b52][ManagementConnection] The client has reconnected.
+2024-03-21 09:22:07.700 [info] [127.0.0.1][7ffeac6f][ExtensionHostConnection] The client has reconnected.
+2024-03-21 12:13:12.195 [info] [127.0.0.1][48bc3b52][ManagementConnection] The client has reconnected.
+2024-03-21 12:13:12.365 [info] [127.0.0.1][7ffeac6f][ExtensionHostConnection] The client has reconnected.
+2024-03-21 12:36:20.278 [info] [127.0.0.1][7ffeac6f][ExtensionHostConnection] The client has reconnected.
+2024-03-21 12:36:20.894 [info] [127.0.0.1][48bc3b52][ManagementConnection] The client has reconnected.
+2024-03-21 13:10:56.122 [info] [127.0.0.1][48bc3b52][ManagementConnection] The client has reconnected.
+2024-03-21 13:10:56.444 [info] [127.0.0.1][7ffeac6f][ExtensionHostConnection] The client has reconnected.
+2024-03-21 13:39:47.866 [info] [127.0.0.1][7ffeac6f][ExtensionHostConnection] The client has reconnected.
+2024-03-21 13:39:47.868 [info] [127.0.0.1][48bc3b52][ManagementConnection] The client has reconnected.
+2024-03-21 14:24:03.347 [info] [127.0.0.1][7ffeac6f][ExtensionHostConnection] The client has reconnected.
+2024-03-21 14:24:03.556 [info] [127.0.0.1][48bc3b52][ManagementConnection] The client has reconnected.
+2024-03-21 16:01:49.917 [info] [127.0.0.1][48bc3b52][ManagementConnection] The client has reconnected.
+2024-03-21 16:01:50.431 [info] [127.0.0.1][7ffeac6f][ExtensionHostConnection] The client has reconnected.
+2024-03-21 16:03:15.773 [info] [127.0.0.1][48bc3b52][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-21 16:03:16.107 [info] [127.0.0.1][7ffeac6f][ExtensionHostConnection] <1580> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,21 @@
+body {
+  background: pink;
+}
+
+#title{
+  color: blue;
+  font-size: 3pe; 
+}
+
+h2 {
+  color: green;
+  font-weight: normal;
+  font-style: italic;
+}
+.completed {
+font-size: 12px;}
+
+#tasks .completed {
+  background: #ccc;
+  text-decoration: underline;
+}

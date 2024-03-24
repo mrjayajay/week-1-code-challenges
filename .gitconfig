@@ -1,2 +1,7 @@
 [color]
 	ui = true
+[user]
+	name = Abdinasir
+	email = abdinasirmohamed336@gmail.com
+[init]
+	defaultBranch = main

@@ -1,0 +1,105 @@
+*{
+    padding:0px
+    margin:0px
+}
+body {
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+#name{
+    color: white;
+    margin-left: 40px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.zenz{color: black;
+text-align: left;
+}
+.frame{
+    width:632px;
+    height: 1813px;
+    background-color: darkgrey;
+    margin-left: 700px;
+    top: -216px;
+    left: -293px;
+}
+#brr{
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    
+}
+#cnn{
+    height: 60px;
+    width: 270px;
+    text-align: center;
+    border-radius: 20px;
+}
+#circ{
+    position: absolute;
+    float:left;
+    bottom: 90px;
+    right: 100px;
+    margin-bottom:3%;
+}
+#brief{
+    margin-top: 5%;
+    padding: 1%;
+}
+#head{
+    text-align: center;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.box{
+    width:100px;
+    height: 100px;
+    }
+#box1{
+    background-color: gray;
+}    
+#box2{
+    background-color: gray;
+}
+#box3{
+    background-color: gray;
+}
+#box4{
+    background-color: gray;
+}
+#box5{
+    background-color: gray;
+}
+#box6{
+    background-color: gray;
+}
+p{
+    text-align: center;
+}
+#sof{
+    margin-left: 50px;
+}
+#class{
+    margin-left: 70px;
+}
+#Email{
+    margin-left: 70px;
+}
+#sub{
+    margin-left: 90px;
+}
+#skills{
+    text-align: center;
+}
