@@ -1,33 +1,15 @@
-2024-03-24 18:08:49.103 [info] Extension host with pid 14253 started
-2024-03-24 18:08:49.192 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
-2024-03-24 18:08:49.193 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
-2024-03-24 18:08:49.194 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2024-03-24 18:08:49.773 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2024-03-24 18:08:49.798 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2024-03-24 18:08:49.798 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2024-03-24 18:08:50.064 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
-2024-03-24 18:08:50.185 [info] Eager extensions activated
-2024-03-24 18:08:50.185 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2024-03-24 18:08:50.186 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
-2024-03-24 18:08:50.186 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
-2024-03-24 18:08:51.341 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5700
-2024-03-24 18:08:52.964 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5700
-2024-03-24 18:08:55.474 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5700
-2024-03-24 18:10:24.142 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5708
-2024-03-24 18:24:17.731 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5708
-2024-03-24 18:24:23.516 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5709
-2024-03-24 18:24:29.290 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5709
-2024-03-24 18:24:35.031 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5709
-2024-03-24 18:24:40.768 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5709
-2024-03-24 18:24:46.526 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5691
-2024-03-24 18:24:52.278 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5691
-2024-03-24 18:24:58.034 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5691
-2024-03-24 18:25:03.790 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5691
-2024-03-24 18:25:08.946 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5691
-2024-03-24 19:53:44.647 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
-2024-03-24 19:55:33.700 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
-2024-03-24 20:07:31.864 [info] Extension host terminating: received terminate message from renderer
-2024-03-24 20:07:31.975 [error] Canceled: Canceled
+2024-03-24 20:25:37.357 [info] Extension host with pid 28810 started
+2024-03-24 20:25:37.381 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/cf794b12134915cc70621464cb8b3190/vscode.lock': Lock acquired.
+2024-03-24 20:25:37.432 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-24 20:25:37.487 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-24 20:25:37.498 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-24 20:25:37.950 [info] Eager extensions activated
+2024-03-24 20:25:37.950 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-24 20:25:37.951 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-24 20:25:37.952 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-03-24 20:26:23.962 [info] Extension host terminating: received terminate message from renderer
+2024-03-24 20:26:23.963 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/cf794b12134915cc70621464cb8b3190/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-03-24 20:26:24.028 [error] Canceled: Canceled
 	at new $ (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
 	at s.U (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
 	at z.<computed>.T.charCodeAt.z.<computed> (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
@@ -63,7 +45,7 @@
 	at n.fire (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
 	at r.fire (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:105:14091)
 	at u.z (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:105:17156)
-	at p.value (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:105:16561)
+	at p.value (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:105:15608)
 	at n.y (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
 	at n.fire (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
 	at p.acceptChunk (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:105:11865)
@@ -80,7 +62,7 @@
 	at readableAddChunk (node:internal/streams/readable:297:9)
 	at Readable.push (node:internal/streams/readable:234:10)
 	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
-2024-03-24 20:07:31.975 [error] Canceled: Canceled
+2024-03-24 20:26:24.029 [error] Canceled: Canceled
 	at new $ (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
 	at s.U (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
 	at z.<computed>.T.charCodeAt.z.<computed> (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
@@ -118,7 +100,7 @@
 	at n.fire (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
 	at r.fire (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:105:14091)
 	at u.z (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:105:17156)
-	at p.value (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:105:16561)
+	at p.value (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:105:15608)
 	at n.y (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
 	at n.fire (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
 	at p.acceptChunk (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:105:11865)
@@ -135,4 +117,4 @@
 	at readableAddChunk (node:internal/streams/readable:297:9)
 	at Readable.push (node:internal/streams/readable:234:10)
 	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
-2024-03-24 20:07:31.976 [info] Extension host with pid 14253 exiting with code 0
+2024-03-24 20:26:24.029 [info] Extension host with pid 28810 exiting with code 0

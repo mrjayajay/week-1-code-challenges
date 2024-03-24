@@ -1,0 +1,43 @@
+2024-03-24 20:26:28.239 [info] Extension host with pid 29511 started
+2024-03-24 20:26:28.280 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-24 20:26:28.301 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/f1f51842fc0df61cdf29a0236b0b63c2/vscode.lock': Lock acquired.
+2024-03-24 20:26:28.727 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-24 20:26:28.727 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-24 20:26:29.148 [info] Eager extensions activated
+2024-03-24 20:26:29.149 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-24 20:26:29.149 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-24 20:26:29.150 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-03-24 20:26:30.186 [info] Extension host terminating: received terminate message from renderer
+2024-03-24 20:26:30.189 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/f1f51842fc0df61cdf29a0236b0b63c2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-03-24 20:26:30.302 [error] ProxyResolver#addCertificatesV1 Canceled: Canceled
+	at new $ (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:140:45885)
+	at s.U (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:147:5556)
+	at z.<computed>.T.charCodeAt.z.<computed> (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:147:3007)
+	at A.loadCertificates (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:153:41347)
+	at Object.loadAdditionalCertificates (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/workbench/api/node/extensionHostProcess.js:135:34303)
+	at /root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:475:53
+	at Generator.next (<anonymous>)
+	at /root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at /root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:474:43
+	at /root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:476:16
+	at Generator.next (<anonymous>)
+	at /root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at getOrLoadAdditionalCertificates (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:472:12)
+	at addCertificatesV1 (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:456:9)
+	at resolveProxy (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:112:9)
+	at /root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:303:77
+	at new Promise (<anonymous>)
+	at _PacProxyAgent.resolveP [as resolver] (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/index.js:303:54)
+	at _PacProxyAgent.<anonymous> (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/agent.js:70:37)
+	at Generator.next (<anonymous>)
+	at /root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/agent.js:8:71
+	at new Promise (<anonymous>)
+	at __awaiter (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/agent.js:4:12)
+	at _PacProxyAgent.connect (/root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/@vscode/proxy-agent/out/agent.js:52:16)
+	at /root/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/node_modules/agent-base/dist/index.js:73:30
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-03-24 20:26:30.304 [info] Extension host with pid 29511 exiting with code 0

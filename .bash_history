@@ -936,3 +936,75 @@ git commit -m "javacript code challenges"
 git branch
 git remote add origin git@github.com:mrjayajay/week-1-code-challenges.git
 git push -u origin master
+git init
+git add .
+git commit -m "javascript solutions"
+git branch
+git branch -M master
+git remote add origin git@github.com:mrjayajay/week-1-code-challenges.git
+git push -u origin master
+git commit --amend
+cd codechallenges
+ls
+mkdir codechallenge
+codechallenge
+cd codechallenge
+touch grade.js speed.js net.js
+code .
+code grade.js speed.js net.js
+cd ~
+clear
+cd codechallenge/
+ls
+code README.md net.js speed.js grade.js
+git init
+git add grade.js net.js speed.js README.md
+git commit -m "solutions using javascript"
+git branch -M main
+git remote add origin https://github.com/mrjayajay/week-1-code-challenges
+git push -u origin main
+clear
+git init
+git add speed.js net.js grade.js README.md 
+git commit -m "javascript solutions"
+git branch -M main
+git remote add origin git@github.com:mrjayajay/week-1-code-challenges.git
+git push origin main
+cd codechallenges
+mkdir codechallenges
+ls
+cd codechallenge
+ls
+code README.md net.js speed.js grade.js
+git init
+git add README.md net.js speed.js grade.js
+git commit -m "javascript challenges"
+git branch -M master
+git remote add origin git@github.com:mrjayajay/week-1-code-challenges.git
+git push -u origin master
+cd ~
+clear
+cd codechallenges
+ls
+touch grade.js net.js speed.js README.md
+ls
+code README.md net.js speed.js grade.js
+rm -r net.js
+ls
+rm -r grade.js
+rm -r speed.js
+ls
+rm -r README.md
+ls
+code .
+touch grade.js
+ls
+code .
+ls
+code .
+ls
+cd codechallenges
+ls
+cd codechallenge
+ls
+rm -r codechallenge
